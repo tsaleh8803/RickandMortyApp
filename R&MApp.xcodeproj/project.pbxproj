@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		04D52EB82A5C034400E3BC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EB72A5C034400E3BC03 /* AppDelegate.swift */; };
 		04D52EBA2A5C034400E3BC03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EB92A5C034400E3BC03 /* SceneDelegate.swift */; };
-		04D52EBC2A5C034400E3BC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EBB2A5C034400E3BC03 /* ViewController.swift */; };
-		04D52EBF2A5C034400E3BC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D52EBD2A5C034400E3BC03 /* Main.storyboard */; };
+		04D52EBC2A5C034400E3BC03 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EBB2A5C034400E3BC03 /* RMTabBarController.swift */; };
 		04D52EC12A5C034600E3BC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D52EC02A5C034600E3BC03 /* Assets.xcassets */; };
 		04D52EC42A5C034600E3BC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D52EC22A5C034600E3BC03 /* LaunchScreen.storyboard */; };
 		04D52ECF2A5C034700E3BC03 /* R_MAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52ECE2A5C034700E3BC03 /* R_MAppTests.swift */; };
 		04D52ED92A5C034700E3BC03 /* R_MAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52ED82A5C034700E3BC03 /* R_MAppUITests.swift */; };
 		04D52EDB2A5C034700E3BC03 /* R_MAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EDA2A5C034700E3BC03 /* R_MAppUITestsLaunchTests.swift */; };
+		04D52EF02A5C053C00E3BC03 /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EEF2A5C053C00E3BC03 /* RMLocation.swift */; };
+		04D52EF22A5C054800E3BC03 /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EF12A5C054800E3BC03 /* RMCharacter.swift */; };
+		04D52EF42A5C055100E3BC03 /* RMEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EF32A5C055100E3BC03 /* RMEpisode.swift */; };
+		04D52EF72A5C05BA00E3BC03 /* RMCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EF62A5C05BA00E3BC03 /* RMCharacterViewController.swift */; };
+		04D52EF92A5C05CA00E3BC03 /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EF82A5C05CA00E3BC03 /* RMLocationViewController.swift */; };
+		04D52EFB2A5C05D600E3BC03 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EFA2A5C05D600E3BC03 /* RMEpisodeViewController.swift */; };
+		04D52EFD2A5C05E700E3BC03 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52EFC2A5C05E700E3BC03 /* RMSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,7 @@
 		04D52EB42A5C034400E3BC03 /* R&MApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R&MApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D52EB72A5C034400E3BC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D52EB92A5C034400E3BC03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04D52EBB2A5C034400E3BC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04D52EBE2A5C034400E3BC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D52EBB2A5C034400E3BC03 /* RMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabBarController.swift; sourceTree = "<group>"; };
 		04D52EC02A5C034600E3BC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D52EC32A5C034600E3BC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D52EC52A5C034600E3BC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		04D52ED42A5C034700E3BC03 /* R&MAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R&MAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D52ED82A5C034700E3BC03 /* R_MAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_MAppUITests.swift; sourceTree = "<group>"; };
 		04D52EDA2A5C034700E3BC03 /* R_MAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_MAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04D52EEF2A5C053C00E3BC03 /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
+		04D52EF12A5C054800E3BC03 /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
+		04D52EF32A5C055100E3BC03 /* RMEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisode.swift; sourceTree = "<group>"; };
+		04D52EF62A5C05BA00E3BC03 /* RMCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewController.swift; sourceTree = "<group>"; };
+		04D52EF82A5C05CA00E3BC03 /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
+		04D52EFA2A5C05D600E3BC03 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
+		04D52EFC2A5C05E700E3BC03 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,13 @@
 		04D52EB62A5C034400E3BC03 /* R&MApp */ = {
 			isa = PBXGroup;
 			children = (
-				04D52EB72A5C034400E3BC03 /* AppDelegate.swift */,
-				04D52EB92A5C034400E3BC03 /* SceneDelegate.swift */,
-				04D52EBB2A5C034400E3BC03 /* ViewController.swift */,
-				04D52EBD2A5C034400E3BC03 /* Main.storyboard */,
-				04D52EC02A5C034600E3BC03 /* Assets.xcassets */,
-				04D52EC22A5C034600E3BC03 /* LaunchScreen.storyboard */,
+				04D52EEE2A5C043C00E3BC03 /* Resources */,
+				04D52EED2A5C043100E3BC03 /* Managers */,
+				04D52EEC2A5C042C00E3BC03 /* APIClient */,
+				04D52EEB2A5C042600E3BC03 /* Controllers */,
+				04D52EEA2A5C042100E3BC03 /* ViewModels */,
+				04D52EE92A5C041500E3BC03 /* Views */,
+				04D52EE82A5C040F00E3BC03 /* Models */,
 				04D52EC52A5C034600E3BC03 /* Info.plist */,
 			);
 			path = "R&MApp";
@@ -125,6 +138,75 @@
 				04D52EDA2A5C034700E3BC03 /* R_MAppUITestsLaunchTests.swift */,
 			);
 			path = "R&MAppUITests";
+			sourceTree = "<group>";
+		};
+		04D52EE82A5C040F00E3BC03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04D52EEF2A5C053C00E3BC03 /* RMLocation.swift */,
+				04D52EF12A5C054800E3BC03 /* RMCharacter.swift */,
+				04D52EF32A5C055100E3BC03 /* RMEpisode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04D52EE92A5C041500E3BC03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04D52EEA2A5C042100E3BC03 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04D52EEB2A5C042600E3BC03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04D52EF52A5C058C00E3BC03 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04D52EEC2A5C042C00E3BC03 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		04D52EED2A5C043100E3BC03 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		04D52EEE2A5C043C00E3BC03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04D52EB72A5C034400E3BC03 /* AppDelegate.swift */,
+				04D52EB92A5C034400E3BC03 /* SceneDelegate.swift */,
+				04D52EC02A5C034600E3BC03 /* Assets.xcassets */,
+				04D52EC22A5C034600E3BC03 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04D52EF52A5C058C00E3BC03 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04D52EBB2A5C034400E3BC03 /* RMTabBarController.swift */,
+				04D52EF62A5C05BA00E3BC03 /* RMCharacterViewController.swift */,
+				04D52EF82A5C05CA00E3BC03 /* RMLocationViewController.swift */,
+				04D52EFA2A5C05D600E3BC03 /* RMEpisodeViewController.swift */,
+				04D52EFC2A5C05E700E3BC03 /* RMSettingsViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +315,6 @@
 			files = (
 				04D52EC42A5C034600E3BC03 /* LaunchScreen.storyboard in Resources */,
 				04D52EC12A5C034600E3BC03 /* Assets.xcassets in Resources */,
-				04D52EBF2A5C034400E3BC03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D52EBC2A5C034400E3BC03 /* ViewController.swift in Sources */,
+				04D52EF92A5C05CA00E3BC03 /* RMLocationViewController.swift in Sources */,
+				04D52EF42A5C055100E3BC03 /* RMEpisode.swift in Sources */,
+				04D52EBC2A5C034400E3BC03 /* RMTabBarController.swift in Sources */,
+				04D52EFB2A5C05D600E3BC03 /* RMEpisodeViewController.swift in Sources */,
 				04D52EB82A5C034400E3BC03 /* AppDelegate.swift in Sources */,
 				04D52EBA2A5C034400E3BC03 /* SceneDelegate.swift in Sources */,
+				04D52EFD2A5C05E700E3BC03 /* RMSettingsViewController.swift in Sources */,
+				04D52EF02A5C053C00E3BC03 /* RMLocation.swift in Sources */,
+				04D52EF22A5C054800E3BC03 /* RMCharacter.swift in Sources */,
+				04D52EF72A5C05BA00E3BC03 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04D52EBD2A5C034400E3BC03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D52EBE2A5C034400E3BC03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04D52EC22A5C034600E3BC03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +521,6 @@
 				INFOPLIST_FILE = "R&MApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +547,6 @@
 				INFOPLIST_FILE = "R&MApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
