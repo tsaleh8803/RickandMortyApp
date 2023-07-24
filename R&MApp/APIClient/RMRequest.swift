@@ -48,7 +48,7 @@ final class RMRequest {
         
         return string
     }
-    ///COmputed and constructed API url
+    ///Computed and constructed API url
     public var url: URL? {
         return URL(string: urlString)
     }
